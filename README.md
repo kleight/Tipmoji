@@ -43,7 +43,7 @@ Thought I broke keyboard, but just had to disconnect hardware keyboard, then rec
 
 Lots of SIGABRT errors when trying to keep keyboard always present.
 
-So there is indication of which emoji is active, wanted to make the default opacity of the emojis to be 70% then 100% on tap. Spent over an hour on this, but could not figure it out.
+So there is indication of which emoji is active, wanted to make the default opacity of the emojis to be 70% then 100% on tap. Spent over an hour on this, but could not figure it out. I'm posting my demo gif on fbook to see if any of my friends feel like helping me out on that. Will update if so.
 
 ## License
 
