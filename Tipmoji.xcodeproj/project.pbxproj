@@ -14,6 +14,8 @@
 		8A4E711E1D89F0090064FE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E711C1D89F0090064FE92 /* LaunchScreen.storyboard */; };
 		8A4E71291D89F0090064FE92 /* TipmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E71281D89F0090064FE92 /* TipmojiTests.swift */; };
 		8A4E71341D89F0090064FE92 /* TipmojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E71331D89F0090064FE92 /* TipmojiUITests.swift */; };
+		8A4E71441D89F8240064FE92 /* DashedLineThick.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E71421D89F8240064FE92 /* DashedLineThick.pdf */; };
+		8A4E71451D89F8240064FE92 /* DashedLineThin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E71431D89F8240064FE92 /* DashedLineThin.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8A4E712F1D89F0090064FE92 /* TipmojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipmojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4E71331D89F0090064FE92 /* TipmojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipmojiUITests.swift; sourceTree = "<group>"; };
 		8A4E71351D89F0090064FE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4E71421D89F8240064FE92 /* DashedLineThick.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DashedLineThick.pdf; sourceTree = "<group>"; };
+		8A4E71431D89F8240064FE92 /* DashedLineThin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DashedLineThin.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 				8A4E71271D89F0090064FE92 /* TipmojiTests */,
 				8A4E71321D89F0090064FE92 /* TipmojiUITests */,
 				8A4E71111D89F0090064FE92 /* Products */,
+				8A4E71411D89F8240064FE92 /* Tipmoji Image Assets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +128,15 @@
 				8A4E71351D89F0090064FE92 /* Info.plist */,
 			);
 			path = TipmojiUITests;
+			sourceTree = "<group>";
+		};
+		8A4E71411D89F8240064FE92 /* Tipmoji Image Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8A4E71421D89F8240064FE92 /* DashedLineThick.pdf */,
+				8A4E71431D89F8240064FE92 /* DashedLineThin.pdf */,
+			);
+			path = "Tipmoji Image Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A4E71451D89F8240064FE92 /* DashedLineThin.pdf in Resources */,
 				8A4E711E1D89F0090064FE92 /* LaunchScreen.storyboard in Resources */,
 				8A4E711B1D89F0090064FE92 /* Assets.xcassets in Resources */,
 				8A4E71191D89F0090064FE92 /* Main.storyboard in Resources */,
+				8A4E71441D89F8240064FE92 /* DashedLineThick.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
