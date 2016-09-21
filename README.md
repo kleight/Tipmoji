@@ -1,10 +1,10 @@
 # Pre-work - *Tipmoji*
 
-Tipmoji is an emoji tip calculator application for iOS.
+**Tipmoji** is an emoji tip calculator application for iOS.
 
 Submitted by: **Kristen Turner**
 
-Time spent: **9** hours spent in total
+Time spent: **9.5** hours spent in total
 
 ## User Stories
 
