@@ -19,6 +19,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [X] Emojis in UI Labels
+- [X] ImageView to indicate "active" emoji
 - [X] Customized Navigation Bar
 - [X] Custom color for placeholder text
 - [X] Image assets for dividing lines
@@ -29,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Tipmoji Demo](Tipmoji Demo.gif)
+![Tipmoji Demo](Tipmoji Demo Update.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -44,6 +45,8 @@ Thought I broke keyboard, but just had to disconnect hardware keyboard, then rec
 Lots of SIGABRT errors when trying to keep keyboard always present.
 
 So there is indication of which emoji is active, wanted to make the default opacity of the emojis to be 70% then 100% on tap. Spent over an hour on this, but could not figure it out. I'm posting my demo gif on fbook to see if any of my friends feel like helping me out on that. Will update if so.
+
+Update 9/21/2016: A friend helped me with problem above.
 
 ## License
 
