@@ -93,6 +93,22 @@
                                     <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="FJ9-MI-hbm"/>
                                 </connections>
                             </segmentedControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="activeCircle" id="Rjc-tY-9DX">
+                                <rect key="frame" x="6" y="277" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="activeCircle" id="xBC-bw-yeZ">
+                                <rect key="frame" x="86" y="276" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="activeCircle" id="R6c-gd-shp">
+                                <rect key="frame" x="166" y="276" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="activeCircle" id="TFC-iH-bJl">
+                                <rect key="frame" x="246" y="277" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Wo5-fS-gIS">
                                 <rect key="frame" x="245" y="275" width="66" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -129,6 +145,10 @@
                     <navigationItem key="navigationItem" title="Tipmoji" id="6gd-Sf-Tw8"/>
                     <connections>
                         <outlet property="billamountTextField" destination="QuI-mX-7ki" id="PKT-Se-wbP"/>
+                        <outlet property="tip0BackgroundImageView" destination="Rjc-tY-9DX" id="JBM-lg-kMF"/>
+                        <outlet property="tip1BackgroundImageView" destination="xBC-bw-yeZ" id="XuE-HA-z9h"/>
+                        <outlet property="tip2BackgroundImageView" destination="R6c-gd-shp" id="k7h-vv-ADR"/>
+                        <outlet property="tip3BackgroundImageView" destination="TFC-iH-bJl" id="AVP-DQ-gi0"/>
                         <outlet property="tipControl" destination="Ukd-0a-Ha6" id="YYL-bs-gL0"/>
                         <outlet property="tipamountLabel" destination="gaz-WZ-o3i" id="MM7-oQ-l2L"/>
                         <outlet property="totalamountLabel" destination="rpz-0i-JdR" id="7Jk-bH-aoN"/>
@@ -166,5 +186,6 @@
     <resources>
         <image name="DashedLineThick" width="374" height="2"/>
         <image name="DashedLineThin" width="373" height="1"/>
+        <image name="activeCircle" width="66" height="66"/>
     </resources>
 </document>

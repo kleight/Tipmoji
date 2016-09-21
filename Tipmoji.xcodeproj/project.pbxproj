@@ -16,6 +16,7 @@
 		8A4E71341D89F0090064FE92 /* TipmojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4E71331D89F0090064FE92 /* TipmojiUITests.swift */; };
 		8A4E71441D89F8240064FE92 /* DashedLineThick.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E71421D89F8240064FE92 /* DashedLineThick.pdf */; };
 		8A4E71451D89F8240064FE92 /* DashedLineThin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8A4E71431D89F8240064FE92 /* DashedLineThin.pdf */; };
+		8A58E9541D933B2500E30A2E /* activeCircle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8A58E9531D933B2500E30A2E /* activeCircle.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8A4E71351D89F0090064FE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A4E71421D89F8240064FE92 /* DashedLineThick.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DashedLineThick.pdf; sourceTree = "<group>"; };
 		8A4E71431D89F8240064FE92 /* DashedLineThin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DashedLineThin.pdf; sourceTree = "<group>"; };
+		8A58E9531D933B2500E30A2E /* activeCircle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = activeCircle.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			children = (
 				8A4E71421D89F8240064FE92 /* DashedLineThick.pdf */,
 				8A4E71431D89F8240064FE92 /* DashedLineThin.pdf */,
+				8A58E9531D933B2500E30A2E /* activeCircle.pdf */,
 			);
 			path = "Tipmoji Image Assets";
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A58E9541D933B2500E30A2E /* activeCircle.pdf in Resources */,
 				8A4E71451D89F8240064FE92 /* DashedLineThin.pdf in Resources */,
 				8A4E711E1D89F0090064FE92 /* LaunchScreen.storyboard in Resources */,
 				8A4E711B1D89F0090064FE92 /* Assets.xcassets in Resources */,
@@ -498,6 +502,7 @@
 				8A4E713A1D89F0090064FE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A4E713B1D89F0090064FE92 /* Build configuration list for PBXNativeTarget "TipmojiTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				8A4E713D1D89F0090064FE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A4E713E1D89F0090064FE92 /* Build configuration list for PBXNativeTarget "TipmojiUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				8A4E71401D89F0090064FE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
